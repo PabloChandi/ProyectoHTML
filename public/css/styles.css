@@ -1,0 +1,30 @@
+body {
+    background-color: salmon;
+    font-family: 'Lato', sans-serif;
+}
+h1 {
+    font-family: serif;
+    font-size: 50px;
+}
+
+p {
+    font-size: 24 px;
+}
+
+p strong {                               /* se lee de atras para adelante, es decir: se aplica este formato a la etiqueta STRONG que se encuentren dentro de P*/
+    background-color: white;
+    color: black;                              
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+strong {
+    color: green;
+}
+
+
+.parrafo-destacado {
+    color: yellow;
+    font-size: 30px;
+    line-height: 38px; /*siempre tiene que hacber una diferencia de 8px entre FONT SIZE y LINE HEIGHT*/
+}
+
